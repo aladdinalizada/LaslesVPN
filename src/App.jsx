@@ -1,7 +1,11 @@
+import MainPage from "./pages/MainPage";
+
 function App() {
   return (
     <>
-      <h1>React App</h1>
+      <div className="w-full h-full">
+        <MainPage />
+      </div>
     </>
   );
 }
