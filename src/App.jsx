@@ -1,4 +1,5 @@
 import { Helmet } from "react-helmet";
+import Header from "./components/Header";
 import MainPage from "./pages/Home/MainPage";
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
             content="width=device-width, initial-scale=1.0"
           />
         </Helmet>
+        <Header />
         <MainPage />
       </div>
     </>
